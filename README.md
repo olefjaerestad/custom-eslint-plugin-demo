@@ -1,4 +1,4 @@
-# custom-eslint-plugin-demo
+# Custom ESLint Plugin Demo
 Code used in the presentation/live coding demo "How (and why) do you create a custom ESLint plugin".
 
 ## Installation
@@ -34,6 +34,13 @@ module.exports = {
 ```
 
 7. Edit your plugin rules as you see fit.
+
+## Why would I want to create a cstuom ESLint plugin?
+Usually, you don't. In an ideal world, you never have to. But programming has it's ways of introducing legacy code or other 
+business logic requirements that aren't always apparent to the developer that just joined the team. Some examples:
+- There's a function in your codebase that is deprecated, but cannot be removed yet because other code is still using it. You want to
+  prevent it being used in new code.
+- You have library A and B available. They both expose a function called `doThing`, but you want to make sure to only use the one from library A.
 
 ## Resources
 - https://camchenry.com/blog/eslint-custom-rules
