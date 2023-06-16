@@ -35,7 +35,7 @@ module.exports = {
 
 7. Edit your plugin rules as you see fit.
 
-## Why would I want to create a cstuom ESLint plugin?
+## Why would I want to create a custom ESLint plugin?
 Usually, you don't. In an ideal world, you never have to. But programming has it's ways of introducing legacy code or other 
 business logic requirements that aren't always apparent to the developer that just joined the team. Some examples:
 - There's a function in your codebase that is deprecated, but cannot be removed yet because other code is still using it. You want to
