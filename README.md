@@ -35,7 +35,7 @@ module.exports = {
 
 7. Edit your plugin rules as you see fit.
 
-# Resources
+## Resources
 - https://camchenry.com/blog/eslint-custom-rules
 - https://stevenpetryk.com/blog/custom-eslint-rules/
 - https://www.kenneth-truyers.net/2016/05/27/writing-custom-eslint-rules/
